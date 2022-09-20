@@ -21,32 +21,33 @@ body {
         "d d d d d d";
 }
 
-.grid-item {
-    background-color: #D972FF;
-} 
-
 .grid-item:nth-child(1) {
     grid-area: a;
-    background-color: #C31FFF;
+    background-color: white;
+    border-bottom: solid 3px #b695df;
 }
 
 .grid-item:nth-child(2) {
     grid-area: b;
+    background-color: #cbb4e8;
 }
 
 .grid-item:nth-child(3) {
     grid-area: c;
+    background-color:  #c1a4e3;
 }
 
 .grid-item:nth-child(4) {
     grid-area: d;
-    background-color: #CE47FF;
+    background-color: white;
+    border-top: solid 3px #b695df;
 }
 
 .tittle {
     text-align: center;
     font-size: 20px;
     font-weight: 600;
+    color:purple;
 }
 
 .category {
@@ -100,7 +101,7 @@ body {
 }
 
 .card_info {
-    background:  #C31FFF;
+    background: black;
     padding: 1rem;
     color: white;
     font-weight: 500;
@@ -109,4 +110,5 @@ body {
 footer {
     font-size: 25px;
     text-align: center;
+    color: purple;
 }
